@@ -15,7 +15,7 @@ def call(body)
    def scm = new git()
    def java = new jdk()
    def mvn = new maven()
-   def build = new maveBuild()
+   def build = new mavenBuild()
   
    stage('Preparing Devops setup'){
       try {
