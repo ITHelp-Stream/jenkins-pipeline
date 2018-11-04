@@ -46,7 +46,7 @@ def call(body)
     }
     stage('Checkout Git'){
       try {
-      git.gitcheckout()
+      scm.gitcheckout()
       echo "\u001B[41m[SUCCESS] Source Code successfully downloaded"
       }
       catch (Exception error)
