@@ -1,4 +1,3 @@
-#This groovy file for building source code
 #!/bin/groovy
 
 package com.devops.pipeline.build

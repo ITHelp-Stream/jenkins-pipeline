@@ -1,4 +1,3 @@
-#this groovy module jenkins git operations
 #!/bin/groovy
 package com.devops.pipeline.git
 
